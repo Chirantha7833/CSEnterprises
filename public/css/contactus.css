@@ -1,0 +1,27 @@
+.dataset{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    
+    
+}
+.content :hover{
+    color: black;
+    background-color: white ;
+}
+.right img{
+    position: absolute;
+    top: 10%;
+    left: 69%;
+}
+.rightc{
+    position: absolute;
+    text-align: center;
+    left: 60%;
+    top:40%;
+    width: 500px;
+    height: 250px;
+}

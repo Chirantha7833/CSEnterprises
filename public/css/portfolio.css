@@ -1,0 +1,29 @@
+ .content{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.vehicletable {
+    border-collapse: collapse;
+    margin: 20px 20px 30px 20px;
+    padding: 20px;
+
+} 
+
+ .vehicletable table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    border-color: rgb(234, 249, 19);
+
+} 
+ th{
+    padding: 20px;
+} 
+td{
+    padding: 5px;
+}

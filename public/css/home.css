@@ -1,0 +1,112 @@
+@font-face{
+    font-family: battle;
+    src: url('/fonts/Battle.ttf');
+}
+
+*{
+     margin: 0;
+    padding: 0; 
+}
+
+/* welcome-section */
+
+.welcome{
+    background: url("/images/bg4.jpg");
+    text-align: center;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+    height: 500px;
+    margin: 0 0 0 0;
+    background-position-x: center;
+    background-position-y:center ;          
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.559);
+    width: 100%;
+    height: 100%;
+    
+        
+}
+.text{
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right: 10%;
+
+    
+}
+
+.welcome h1{
+    
+    -webkit-text-stroke: 2px black;
+    
+    color: rgb(255, 239, 8);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    text-shadow: 3px 10px 10px  rgb(26, 26, 26);
+   
+    
+    
+}
+h1{
+    color:rgb(0, 0, 0);
+}
+.text h3{
+    background-color: rgba(0, 0, 0, 0.129);
+    position: absolute;
+    top:220px;
+    border-radius: 10px;
+    text-shadow: 15px 15px 15px black;
+    color:rgb(255, 255, 255);
+    margin: 0 0 0px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.list{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* content-section */
+
+.content{
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    background-size: cover;
+}
+.topic{
+    margin: 50px 0px 10px 0px;
+    font-size: 25px;    
+}
+.list h4{
+    
+    margin-top: 10px;   
+    background-color: rgb(51, 51, 51);
+    padding: 20px 0px 20px 20px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.list h4:hover{
+    color: black;
+    background-color: white;
+
+}
+.list p{
+    text-align: center;
+}
+
+.endtext{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 50px;
+    color: rgba(47, 47, 47, 0.716);
+    
+}
